@@ -1,6 +1,10 @@
-module github.com/kubernetes-incubator/custom-metrics-apiserver
+module github.com/nrfta/custom-metrics-apiserver/v18
 
 go 1.13
+
+replace (
+	github.com/kubernetes-incubator/custom-metrics-apiserver@v0.0.0-20200504000000-0fb7452b1dd9 => github.com/nrfta/custom-metrics-api-server/v18 v0.18.2
+)
 
 require (
 	github.com/emicklei/go-restful v2.9.5+incompatible
