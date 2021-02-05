@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/kubernetes-incubator/custom-metrics-apiserver/pkg/apiserver"
+	"github.com/kubernetes-sigs/custom-metrics-apiserver/pkg/apiserver"
 	genericapiserver "k8s.io/apiserver/pkg/server"
 	genericoptions "k8s.io/apiserver/pkg/server/options"
 )

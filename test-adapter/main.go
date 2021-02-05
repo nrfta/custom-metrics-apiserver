@@ -26,9 +26,9 @@ import (
 	"k8s.io/component-base/logs"
 	"k8s.io/klog"
 
-	basecmd "github.com/kubernetes-incubator/custom-metrics-apiserver/pkg/cmd"
-	"github.com/kubernetes-incubator/custom-metrics-apiserver/pkg/provider"
-	fakeprov "github.com/kubernetes-incubator/custom-metrics-apiserver/test-adapter/provider"
+	basecmd "github.com/kubernetes-sigs/custom-metrics-apiserver/pkg/cmd"
+	"github.com/kubernetes-sigs/custom-metrics-apiserver/pkg/provider"
+	fakeprov "github.com/kubernetes-sigs/custom-metrics-apiserver/test-adapter/provider"
 )
 
 type SampleAdapter struct {
