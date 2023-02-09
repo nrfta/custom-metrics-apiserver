@@ -3,7 +3,7 @@ module github.com/kubernetes-sigs/custom-metrics-apiserver
 go 1.13
 
 require (
-	github.com/emicklei/go-restful v2.9.5+incompatible
+	github.com/emicklei/go-restful v2.16.0+incompatible
 	github.com/emicklei/go-restful-swagger12 v0.0.0-20170208215640-dcef7f557305
 	github.com/googleapis/gnostic v0.1.0
 	github.com/spf13/pflag v1.0.5
